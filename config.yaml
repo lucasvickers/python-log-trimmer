@@ -1,0 +1,16 @@
+# SORT OPTIONS:
+#
+# 'timestamp' - will trim oldest first
+#
+# 'alphanumeric'  - will trim '01.log' first
+#    ['01.log', '1.log', '2.log', '3.log']
+#
+# 'alphanumeric-reverse' - will trim '3.log' first
+#    ['3.log', '2.log', '1.log', '01.log']
+
+sort: 'timestamp'
+
+history: 100
+path: '/tmp/logs'
+
+log_regex: '.*\.log$'
