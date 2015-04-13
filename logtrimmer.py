@@ -8,6 +8,9 @@ import re
 
 def trim_log_files(test=False):
 
+    # set our dir to local so we can grab our config files
+    os.chdir(sys.path[0])
+
     config = yaml.load(open('config.yaml', 'r'))
 
     os.chdir(config['path'])
