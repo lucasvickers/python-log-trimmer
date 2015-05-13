@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd
+">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.log.trimmer</string>
+    <key>ProgramArguments</key>
+    <array>
+        <string>/path/to/logtrimmer.py</string>
+    </array>
+
+    <!-- Run at load/login load -->
+    <key>RunAtLoad</key>
+    <true/>
+
+    <!-- This optional key specifies the user to run the job as. This key
+    is only applicable when launchd is running as root. -->
+    <key>UserName</key>
+    <string>admin</string>
+
+    <!-- Copy standard error output -->
+    <key>StandardErrorPath</key>
+    <string>/path/to/out.err</string>
+
+</dict>
+</plist>
