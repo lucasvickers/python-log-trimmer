@@ -11,8 +11,8 @@ Take a look at ```config.yaml``` it should explain it pretty well
 Set everything up, then import the file and run ```trim_log_files(test=True)```, that way it will only tell you what it's going to do.
 
 ### Automated Configuration
-#### OS X
+##### OS X
 Add the ```com.log.trimmer.plist``` file to your plist, or use some other automated method to start up the file.  It will look for the config file in the same folder that the python script is in.
 
-#### Windows
+##### Windows
 Have not used it here yet, please give me a PL with some instructions.
