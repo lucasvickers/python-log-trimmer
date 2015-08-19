@@ -10,7 +10,11 @@
 
 sort: 'timestamp'
 
+# how many files you want to keep
 history: 100
+
+# the path to look for log files in
 path: '/tmp/logs'
 
+# the regex expression that log files must match to be considered for deletion
 log_regex: '.*\.log$'
