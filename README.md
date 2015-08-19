@@ -2,7 +2,7 @@
 Tools to trim log files out of a logged directory.  This is to prevent obvious issues such as flooding a machine with logs.
 
 ### General Usage
-You'll set ```logtrimmer.py``` to run on a daily basis (weekly would work fine as well).  You'd change the config.yaml files so that it knows the directry to target, the names of the log files, and how many log files you want to keep.
+You'll set ```logtrimmer.py``` to run on a daily basis (weekly would work fine as well).  You'd change the ```config.yaml``` file so that it knows the directry to target, the names of the log files, and how many log files you want to keep.
 
 ### Configuration
 Take a look at ```config.yaml``` it should explain it pretty well
