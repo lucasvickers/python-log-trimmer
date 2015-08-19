@@ -8,7 +8,7 @@ You'll set ```logtrimmer.py``` to run on a daily basis (weekly would work fine a
 Take a look at ```config.yaml``` it should explain it pretty well
 
 ### Testing
-Set everything up, then import the file and run ```trim_log_files(test=True)```, that way it will only tell you what it's going to do.
+Set everything up, then import the python script and run ```trim_log_files(test=True)```, that way it will only tell you what it's going to do.
 
 ### Automated Configuration
 ##### OS X
